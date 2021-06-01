@@ -1,0 +1,17 @@
+<!--components/navigation-bar.wxml-->
+<view>
+  <view class="status" style="padding-top:{{statusBarHeight}}px;visibility: hidden;"></view>
+  <view class="navigationHeight" style="padding-top:{{statusBarHeight}}px;{{innerWidth}};{{nnerPaddingRight}}">
+    <view class="barLeft" style="{{leftWidth}}">
+      <view wx:if="{{showBack}}" class="back nice-focus" bindtap="back">
+        <image mode="aspectFit" src="/static/iamge/back.svg"></image>
+      </view>
+      <view class="home nice-focus" bindtap="home">
+        <image mode="aspectFit" src="/static/iamge/home.svg"></image>
+      </view>
+    </view>
+    <view class="barCenter">
+      <text>{{title}}</text>
+    </view>
+  </view>
+</view>

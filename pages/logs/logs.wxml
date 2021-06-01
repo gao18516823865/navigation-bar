@@ -1,0 +1,6 @@
+<!--logs.wxml-->
+<navigation-bar title="子内容"></navigation-bar>
+<view class="container log-list">
+  子内容
+  <block wx:for="{{arrayNumber}}" wx:for-item="item"><view>{{item}}</view></block>
+</view>
