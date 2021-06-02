@@ -4,7 +4,7 @@ const app = getApp()
 
 Page({
   data: {
-   
+   height:200,
   },
 
   onLoad() {
