@@ -1,4 +1,4 @@
 <!--index.wxml-->
 <navigation-bar title="自定义头部"></navigation-bar>
 <navigator hover-class="none" url="/pages/logs/logs">点击</navigator>
-<view>content</view>
+<view class="content" style="--height:{{height}}px;">content</view>
